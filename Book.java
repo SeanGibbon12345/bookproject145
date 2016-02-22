@@ -3,7 +3,7 @@
  *
  * Book.java
  *
- * Modified by Chris Reedy (Chris.Reedy@wwu.edu).
+ * Modified by Chris Reedy (Chris.Reedy@wwu.edu). af sfasf asfas fas
  *
  * A basic class for a Book object.
  *
