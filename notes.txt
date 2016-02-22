@@ -1,0 +1,167 @@
+notes for this lab...
+
+
+you are absolutely in crisis mode.  no skiing this weekend for sure.
+
+Book copy = new Book (oldcopy)
+
+
+
+BookCollection something = new BookCollection (n)
+
+
+
+
+merge (collection 1, collection2)
+make a new book collectionloop thru collection 1}
+  make a copy of a book
+  add the copy to collection}
+
+loop thru collection 2
+  if book not in collection }
+    make a copy
+    add copy to collection}
+  else
+    add to the stack of books in collection}
+    change the price to the minimum of the two books
+
+
+    } might actually mean 3 though
+
+
+
+    oi so for this weekend to be a success
+
+    all of chapter 2 for math
+
+    lab done perfectly
+
+    gotten a start on the assignment
+
+
+    THIS WILL BE ALMOST IMPOSSIBLE SO YOU HAD BETTER GO HARD IN THE MOTHER FUCKING PAINT
+
+    you're never more miserable than when you fail.  get caffeine early in the dang morning.
+
+    that's all it really takes.
+    dumbo
+
+    you need have everything done by friday from now on (all the sunday stuff),
+    and the wednesday stuff needs to be done by the weekend.
+
+
+
+    THE TIMEOUTS FOR FUCK'S SUCK MAN!  TIMEOUTS WILL SAVE YOU
+    get in the zone and stay there
+
+
+
+
+
+
+    alright so right now you are working on the constructor methods within your class
+    these methods are...
+
+    addBook, findBook, getSize, objectAt
+    findbook is needed by adbook apparently.  isn't there already an addbook method?  i am confused.
+    you need to get the data fields in order for these to work
+    make sure they are encapsulated (private)
+
+    u should be helping other people here.  that is how you can be a better person.
+
+    message trisha and rachel and give weekend update
+    you need to wake up dangit.  in the morning and during the day
+    it feels so bad afterwards cmon now
+    ou need so start working with a group from the very beginning
+    you need to be in this room way more often for this to work
+
+    you need to teach yourself to not be able to let go of stuff
+    let go of the frustration, not the problem.  that is huge
+
+    pt so come on let's go.  tomorrow there will be some major trouble shooting sure that's fine.  there will be people here then too.  just get er started now
+
+pretend this doesn't matter
+
+let go of the stress
+
+don't let go of the problem
+
+work on things to the very end (including life in general)
+
+don't try to go too fast or too slow.
+
+just do.
+
+once the time is up, the time is up.  turn in what you have.  that's life.
+
+
+
+
+
+grant me the serenity to accept the things I cannot change,
+The courage to change the things I can,
+And wisdom to know the difference.
+
+
+
+re - evaluate your situation at 8 pm.  have the courage to change the things yo ucan,
+the serenity to accept the things you cannot
+
+
+
+okay so findbook, then addbook.
+
+you need to figure out exactly what a book is, and what a collection is.
+write out exactly what is happening with the client program.
+
+so size is passed in.
+current size is set to 0
+book array
+
+
+collection1.bookarray = new Book[size]
+
+okay so an array of type book is created with the size that ws passed
+it is called bookarray, and belongs to the object collection 1.
+
+collection 1 and list one are passed into the getbooks function
+book object created with all of the necessary fields
+
+books are added as long as it has next line.  excellent.  what do i even need to write for addbook then i don't get it.  i feel like it's been done already.
+oh i see it needs to call on findbook to see if it's legitimate i guess.  so you need to write findbook for it to work properly and to call exceptions and all that.
+
+do i need to write these exceptions?  i don't really understand that either
+
+emotional maturity needs to come really quick or you will die here
+
+
+so i guess my first question is why do i need to add the data fields, and are they the ones that i'm thinking of?
+why do the constructor methods need them?
+
+you need to figure out what each method is taking from the Book class and what it needs to return to your client program in order for it to run as needed,
+as well as what it needs to save in its cache to be able to continue implementing stuff.  like the current size of it and all of that rubbish
+
+
+
+okay so it just adds the scanned in book line to the book collection.  findbook checks for a duplicate
+don't let the fear paralyze you
+
+
+so the question is what are the books called within each book array?
+
+the book arrays belong to Book Collection objects.
+
+The book collection objects are called collection1, collection2, and collection3.
+
+within them there are 16, 9, and 25 books, respectively.  collection3 is created by a merge.  the other two are created by findbook - addbook
+
+book array is of type book though
+
+book array belongs to the collection object which is of class BookCollection
+within the book array, however, the spots are occupied by objects of class Book.  the object is book, but I don't quite understand what each individual one is called.
+the collections are called collection1, collection2, and collection3, but what i don't get is what each individual book is called.
+
+okay so creating different names for each one will be done in addBook is suppose.  addbook, and thus findbook are extremely important parts here.  gotcha.
+collection full, duplicate book, findbook and adbook are the first things to be done.  you had better get those done tonight
+
+no no no it's just book array at that element is that book.  there are not different names for the books
